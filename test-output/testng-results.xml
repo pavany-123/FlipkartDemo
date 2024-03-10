@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-09T17:51:37 IST" name="Default suite" finished-at="2024-03-09T17:52:03 IST" duration-ms="26083">
+    <groups>
+    </groups>
+    <test started-at="2024-03-09T17:51:37 IST" name="Default test" finished-at="2024-03-09T17:52:03 IST" duration-ms="26083">
+      <class name="com.Logistics.Rasepuser.scripts.testcase1">
+        <test-method is-config="true" signature="configBs()[pri:0, instance:com.Logistics.Rasepuser.scripts.testcase1@470734c3]" started-at="2024-03-09T17:51:36 IST" name="configBs" finished-at="2024-03-09T17:51:37 IST" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBs -->
+        <test-method is-config="true" signature="openApp()[pri:0, instance:com.Logistics.Rasepuser.scripts.testcase1@470734c3]" started-at="2024-03-09T17:51:37 IST" name="openApp" finished-at="2024-03-09T17:51:43 IST" duration-ms="6318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="tc1()[pri:0, instance:com.Logistics.Rasepuser.scripts.testcase1@470734c3]" started-at="2024-03-09T17:51:43 IST" name="tc1" finished-at="2024-03-09T17:52:02 IST" duration-ms="19350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method is-config="true" signature="closeApp(org.testng.ITestResult)[pri:0, instance:com.Logistics.Rasepuser.scripts.testcase1@470734c3]" started-at="2024-03-09T17:52:02 IST" name="closeApp" finished-at="2024-03-09T17:52:03 IST" duration-ms="368" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc1 status=SUCCESS method=testcase1.tc1()[pri:0, instance:com.Logistics.Rasepuser.scripts.testcase1@470734c3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method is-config="true" signature="configAs()[pri:0, instance:com.Logistics.Rasepuser.scripts.testcase1@470734c3]" started-at="2024-03-09T17:52:03 IST" name="configAs" finished-at="2024-03-09T17:52:03 IST" duration-ms="218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAs -->
+      </class> <!-- com.Logistics.Rasepuser.scripts.testcase1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
